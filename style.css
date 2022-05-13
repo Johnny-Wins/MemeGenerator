@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(7, 24, 46);
+    color: white;
+}
+
+.section {
+    border: 1px solid white;
+    border-style: solid;
+    width: 33%;
+    height: 600px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.wrapper {
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 3;
+    width: 1000px;
+}
+
+.picHolder{
+    margin: auto;
+    border: 2px solid rgba(16, 16, 59, 0.548);
+    border-style: solid;
+    width: 90%;
+    height: 400px;
+}
